@@ -2,11 +2,11 @@ from textblob import TextBlob
 import en_local
 
 def get_text_input():
-    """Getting the text"""
+    """Gets the text"""
     return input("Введите текст: ")
 
 def analyze_text_stats(input_text):
-    """Removes duplicate characters. Counts the number of sentences, words and syllables in the text. Считывает количество предложений, слов и слогов в тексте."""
+    """Removes duplicate characters. Counts the number of sentences, words and syllables in the text."""
     cleaned_text = input_text.replace('!!!', '!').replace('???', '?').replace('...', '.')
     blob = TextBlob(cleaned_text)
 
