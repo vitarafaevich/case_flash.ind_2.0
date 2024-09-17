@@ -80,6 +80,3 @@ def main():
     print_statistics(sentences_count, words_count, syllables_count,
                      average_sentence_length, average_word_length,
                      readability_index, objectivity_analysis, sentiment_analysis)
-
-if __name__ == "__main__":
-    main()
