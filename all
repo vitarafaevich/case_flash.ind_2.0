@@ -3,7 +3,7 @@ import en_local
 
 def get_text_input():
     """Gets the text"""
-    return input("Введите текст: ")
+    return input("Waiting for the text: ")
 
 def analyze_text_stats(input_text):
     """Removes duplicate characters. Counts the number of sentences, words and syllables in the text."""
